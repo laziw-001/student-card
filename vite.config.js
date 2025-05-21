@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/react/',
+  base: "/react/", // <<< bu MUHIM! repo noming bilan bir xil bo‘lishi kerak
   plugins: [react()],
 })
